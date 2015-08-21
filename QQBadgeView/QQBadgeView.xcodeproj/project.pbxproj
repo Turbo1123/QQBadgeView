@@ -14,6 +14,7 @@
 		4BCE5D2F1B876371002FD41C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE5D2E1B876371002FD41C /* Images.xcassets */; };
 		4BCE5D321B876371002FD41C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCE5D301B876371002FD41C /* LaunchScreen.xib */; };
 		4BCE5D3E1B876371002FD41C /* QQBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE5D3D1B876371002FD41C /* QQBadgeViewTests.m */; };
+		4BCE5D491B8764FC002FD41C /* badgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCE5D481B8764FC002FD41C /* badgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4BCE5D371B876371002FD41C /* QQBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCE5D3C1B876371002FD41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BCE5D3D1B876371002FD41C /* QQBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBadgeViewTests.m; sourceTree = "<group>"; };
+		4BCE5D471B8764FC002FD41C /* badgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = badgeView.h; sourceTree = "<group>"; };
+		4BCE5D481B8764FC002FD41C /* badgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = badgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				4BCE5D261B876371002FD41C /* AppDelegate.m */,
 				4BCE5D281B876371002FD41C /* ViewController.h */,
 				4BCE5D291B876371002FD41C /* ViewController.m */,
+				4BCE5D471B8764FC002FD41C /* badgeView.h */,
+				4BCE5D481B8764FC002FD41C /* badgeView.m */,
 				4BCE5D2B1B876371002FD41C /* Main.storyboard */,
 				4BCE5D2E1B876371002FD41C /* Images.xcassets */,
 				4BCE5D301B876371002FD41C /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCE5D491B8764FC002FD41C /* badgeView.m in Sources */,
 				4BCE5D2A1B876371002FD41C /* ViewController.m in Sources */,
 				4BCE5D271B876371002FD41C /* AppDelegate.m in Sources */,
 				4BCE5D241B876371002FD41C /* main.m in Sources */,
